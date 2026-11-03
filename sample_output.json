@@ -1,0 +1,57 @@
+{
+  "source": "invoice.png",
+  "data": {
+    "invoice_number": "RT-2024-1052",
+    "invoice_date": "2024-10-14",
+    "due_date": "2024-11-13",
+    "supplier_name": "RIVERTECH SUPPLIES LTD.",
+    "customer_name": "Deutschelink GmbH",
+    "currency": "NPR",
+    "items": [
+      {
+        "description": "HDPE Pipe 110mm (6m length)",
+        "quantity": 50.0,
+        "unit": "pcs",
+        "unit_price": 1250.0,
+        "line_total": 62500.0
+      },
+      {
+        "description": "HDPE Elbow 90° 110mm",
+        "quantity": 20.0,
+        "unit": "pcs",
+        "unit_price": 450.0,
+        "line_total": 9000.0
+      },
+      {
+        "description": "HDPE Coupling 110mm",
+        "quantity": 30.0,
+        "unit": "pcs",
+        "unit_price": 300.0,
+        "line_total": 9000.0
+      },
+      {
+        "description": "Welding Service",
+        "quantity": 10.0,
+        "unit": "hrs",
+        "unit_price": 1500.0,
+        "line_total": 15000.0
+      },
+      {
+        "description": "Delivery Charge",
+        "quantity": 1.0,
+        "unit": "lot",
+        "unit_price": 5000.0,
+        "line_total": 5000.0
+      }
+    ],
+    "subtotal": 100500.0,
+    "vat_rate": 13.0,
+    "vat_amount": 13065.0,
+    "total_amount": 113565.0
+  },
+  "validation": {
+    "is_valid": true,
+    "errors": [],
+    "warnings": []
+  }
+}
